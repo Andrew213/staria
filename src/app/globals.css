@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast-container {
+  width: unset;
+}
+
+.Toastify__toast,
+.Toastify__toast-body {
+  padding: 0;
+}
+
+.Toastify__toast {
+  background: transparent;
+  min-height: 0;
+  border-radius: 0;
+}
+
+.Toastify__toast-container--top-right {
+  right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container--top-right {
+    right: 0px;
+  }
+
+  .Toastify__toast-container--bottom-left,
+  .Toastify__toast-container--bottom-center,
+  .Toastify__toast-container--bottom-right {
+    bottom: 20px;
+  }
+
+  .Toastify__toast-container--top-right {
+    top: 20px;
+  }
+  .Toastify__toast-container {
+    width: inherit;
+    padding: 0;
+    left: auto;
+    margin: 0;
+  }
+}
+
+@layer base {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+
+  input[type='checkbox'] {
+    position: relative;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}

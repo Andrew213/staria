@@ -1,0 +1,15 @@
+export const data = {
+  notLastStepTitle: 'Select Amount to Invest',
+  lastStepTitle: 'Participate in Sales',
+  inputLabel: 'Amount to invest',
+  placeholder: 'Enter Amount',
+  max: 'Max',
+  minimumAllocations: 'Minimum Allocations:',
+  maximumAllocations: 'Maximum Allocations:',
+  platformFee: 'Platform fee:',
+  checkSAFT: 'Check SAFT:',
+  saft: 'SAFT',
+  closedIn: 'Closed in:',
+  continueButton: 'Continue',
+  total: 'Total:',
+};

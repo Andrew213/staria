@@ -1,0 +1,1277 @@
+{
+  "data": [
+    {
+      "id": 4,
+      "attributes": {
+        "title": "What happens if there are changes in regulations that affect Staria Network?",
+        "category": "Compliance",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Staria Network is fully committed to legal compliance and operates with the agility to adapt quickly to any changes in regulations that might affect the platform. We address regulatory changes with a three-part strategy:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1.",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": " Immediate Compliance:",
+                "type": "text"
+              },
+              {
+                "text": " We ensure our operations remain compliant by adjusting our practices as necessary to align with new laws.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2. ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Proactive Adaptation:",
+                "type": "text"
+              },
+              {
+                "text": " Our team proactively adapts to upcoming regulations, staying ahead of changes to minimize impact on our service and users.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "3.",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": " Integration into Terms:",
+                "type": "text"
+              },
+              {
+                "text": " Any unforeseen regulatory changes are quickly integrated into our terms and conditions, ensuring our platform continues to operate legally and ethically.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This proactive and flexible strategy ensures that Staria Network remains a reliable and compliant platform for our users, regardless of the evolving legal landscape.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-16T11:01:39.454Z",
+        "updatedAt": "2024-03-13T21:58:27.055Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Is KYC mandatory to participate on Staria Network?",
+        "category": "Data Privacy",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Yes, completing a Know Your Customer (KYC) process is mandatory for all investors on Staria Network. We've partnered with a professional firm to ensure reliable and secure identity verification. Rest assured, all personal information is treated with the utmost confidentiality and in strict compliance with regulatory standards. This ensures not only the safety and security of our platform but also aligns with our commitment to adhere to legal requirements.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:04:19.965Z",
+        "updatedAt": "2024-03-13T21:59:24.001Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Is Staria Network compliant with local regulations?",
+        "category": "Compliance",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Absolutely, Staria Network adheres to all local regulations in Switzerland, ensuring full compliance. However, due to specific regulations, access may be restricted in certain countries.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-16T10:53:25.423Z",
+        "updatedAt": "2024-03-13T21:57:23.856Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "title": "What are the different fees involved on Staria Network?",
+        "category": "Fees",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On Staria Network, we like simplicity and transparency. The only fees you need to be aware of are the investment fees. These fees are applied to the investment amount and vary depending on your subscription level:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Basic Members:",
+                "type": "text"
+              },
+              {
+                "text": " 20% fee on top of the investment amount.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis:",
+                "type": "text"
+              },
+              {
+                "text": " Fee reduced to 15% on top of the investment amount.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis+:",
+                "type": "text"
+              },
+              {
+                "text": " Further reduced fee of 10% on top of the investment amount.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "There are no hidden charges or additional fees beyond these investment fees. This straightforward approach ensures that all users can make informed decisions about their investments on Staria Network, without worrying about unexpected costs.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:09:26.083Z",
+        "updatedAt": "2024-03-13T22:06:10.684Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "title": "When will I receive my commissions on Staria Network?",
+        "category": "Referrals",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "You'll receive your referral commissions immediately in your wallet via a smart contract as soon as your referee invests on Staria Network. This process offers direct, transparent payment, with the ability to verify the transaction onchain.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:11:20.426Z",
+        "updatedAt": "2024-03-13T22:08:39.876Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "title": "How are the referral commissions paid on Staria Network?",
+        "category": "Referrals",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Referral commissions on Staria Network are directly paid to your wallet via a smart contract at the time of the investment of your referee. It guarantees a, immediate payment, verifiable onchain.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:11:03.782Z",
+        "updatedAt": "2024-03-13T22:08:16.716Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "title": "I did not received my tokens, why?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some tokens you invest in through Staria Network might not be listed yet. It's also possible the project team is still working out how to distribute them. Make sure to check if there's a vesting schedule that explains when and how you'll get your tokens. If you're stuck or something doesn't seem right, don't hesitate to reach out to our support team. We're here to help sort things out!",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:13:19.700Z",
+        "updatedAt": "2024-03-13T22:11:17.262Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "title": "What is the validity period of my Genesis subscription on Staria Network?",
+        "category": "Subscription Models",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Genesis subscription on Staria Network comes with lifetime validity. Once you subscribe to Genesis or Genesis+, this is for life! It's important to note, however, that this subscription is not transferable and cannot be sold. This policy ensures that the exclusive benefits and privileges offered to our early supporters remain with them as a token of appreciation for their trust and investment in our platform.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:08:20.861Z",
+        "updatedAt": "2024-03-13T22:03:30.599Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "title": "What is the subscription model for Staria Network?",
+        "category": "Subscription Models",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Staria Network offers two main types of subscriptions to accommodate the diverse needs and preferences of our users: the Free plan and the Genesis subscription. Here's a breakdown of what each plan includes:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Free Plan:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "Fees",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": Users under the Free plan will incur a 20% fee on top of their investments",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "Referrals",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": Access to 1 level of referral, allowing users to benefit from introducing new members to the platform",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "Allocation Draw",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": Investment is based on a lottery system. Winning the lottery means that you can invest",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis Subscription:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "One-Time Payment",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": A lifetime subscription that requires only a single payment. Once subscribed, members enjoy benefits for life without any additional subscription fees.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "Referral Levels",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": Genesis subscribers get 2 levels of referral, while Genesis+ subscribers enjoy 3 levels.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "text": "Priority Investment",
+                "type": "text",
+                "underline": true
+              },
+              {
+                "text": ": Both Genesis and Genesis+ members receive priority in investment opportunities, with a \"First Come, First Served\" (FCFS) policy that may be further refined with a potential 3 rounds model. This gives them an advantage over Free plan members during investment rounds.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:08:49.349Z",
+        "updatedAt": "2024-03-13T22:04:36.156Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "title": "How much will I pay in fees to invest on Staria Network?",
+        "category": "Fees",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The fees you'll pay to invest on Staria Network depend on your subscription status.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Basic Members:",
+                "type": "text"
+              },
+              {
+                "text": " If you are a Basic (Free plan) member, you'll pay a 20% fee on top of your investment amount. This fee is applied to each investment you make, aligning with the value and services provided by the platform.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis Subscription:",
+                "type": "text"
+              },
+              {
+                "text": " For those who opt for the Genesis package, the fee is reduced to 15% on top of the investment amount. This reduced fee is one of the benefits of the Genesis package",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis+ Subscription: ",
+                "type": "text"
+              },
+              {
+                "text": "Genesis+ subscribers enjoy an even lower fee of 10% on top of their investment amount. This premium subscription tier offers the lowest fees",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:09:08.511Z",
+        "updatedAt": "2024-03-13T22:05:30.360Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "title": "What type of due diligence is conducted on the deals?",
+        "category": "Due Diligence",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Every potential project on Staria Network undergoes thorough due diligence to ensure only the most viable opportunities are offered to our investors. Here's an overview of our due diligence process:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Rigorous Examination:",
+                "type": "text"
+              },
+              {
+                "text": " We conduct an extensive review of all projects, applying a strict \"If there's any doubt, there is no doubt\" principle. This approach means we decline the majority of projects to maintain high-quality standards.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Detailed Assessment: ",
+                "type": "text"
+              },
+              {
+                "text": "Our due diligence encompasses both internal and external processes that scrutinize various aspects of a project. This ensures an objective analysis, with external due diligence carried out by parties not influenced by our internal biases or interests.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Use of a Comprehensive Matrix:",
+                "type": "text"
+              },
+              {
+                "text": " A detailed set of parameters is utilized to evaluate each project. The presence of any red flags during this evaluation leads to the project's rejection.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:15:01.967Z",
+        "updatedAt": "2024-03-13T22:18:22.270Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "title": "Are there any risk assessment or rating systems for the deals on Staria Network?",
+        "category": "Due Diligence",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Staria Network employs a dual approach for evaluating the deals listed on our platform. We collaborate with a third-party partner for external risk assessments and ratings. This includes commissioning an external audit agency to produce detailed reports on each deal, which are made available to our users for transparency.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In addition to external evaluations, we also utilize an internal matrix to rate every project. This internal rating system allows us to conduct a thorough analysis based on a set of predefined criteria, ensuring that our evaluations are comprehensive and reflective of the potential risks and rewards.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Both internal and external validation are needed to be listed on Staria Network.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:15:21.037Z",
+        "updatedAt": "2024-03-13T22:21:55.454Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "title": "Is there a minimum amount to invest on Staria? And a maximum?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On Staria Network, each investment opportunity has specific minimum and maximum investment amounts. This range allows you to invest an amount that aligns with your financial preferences and investment goals. Those amounts will be specified in the investment funnel and could change from a project to the other.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:13:54.938Z",
+        "updatedAt": "2024-03-13T22:11:39.932Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "title": "Can I contribute multiple times on a single deal on Staria Network?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Yes, you can contribute multiple times to a single deal on Staria Network, as long as you stay within the maximum ticket limit set for each raise. Deals operate on a First Come, First Serve (FCFS) basis, especially for Genesis and Genesis+ members, allowing for multiple contributions if there's still space available.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "For example, if a deal has a maximum ticket size of $1000 and you initially invest $500, you have the option to invest an additional amount later, up to the $1000 limit, assuming space is still available in the deal.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Of course, this is not possible for free members as they are participating through a lotery system.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:14:28.291Z",
+        "updatedAt": "2024-03-13T22:12:50.914Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "title": "Can I access detailed information or documentation about the private deals o, Staria Network?",
+        "category": "Due Diligence",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Yes, as an investor on Staria Network, you have access to comprehensive information about the private deals listed on our platform. This includes in-depth research and evaluations conducted by our specialized third-party partner, ensuring you have a well-rounded-2 understanding of each investment opportunity. ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Additionally, you're provided with direct access to essential project documents, such as pitchdecks, whitepapers, and detailed tokenomics, enabling you to make informed decisions based on thorough documentation and insights.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:15:39.559Z",
+        "updatedAt": "2024-03-13T22:22:55.997Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "The KYC system of Staria Network",
+        "category": "Data Privacy",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Staria Network's KYC system is meticulously designed to be fully compliant with Swiss law, ensuring that we meet all legal requirements for identity verification. Our process emphasizes the validation of fiscal residency as a critical step, prioritizing it to ensure that all our users meet the necessary criteria for participation.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To complete the KYC process, users are required to provide:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- A valid passport or ID card for identity verification",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- Proof of Residency, which helps us validate your fiscal residency status",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This thorough approach not only aligns with our commitment to regulatory compliance but also enhances the security and integrity of our platform, offering peace of mind to all our users.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:04:48.809Z",
+        "updatedAt": "2024-03-13T22:00:04.406Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "title": "Is there a minimum age requirement to participate on Staria Network?",
+        "category": "Subscription Models",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Yes, to participate on Staria Network, users must be at least 18 years old. This age requirement ensures that all participants can legally enter into agreements.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:05:58.022Z",
+        "updatedAt": "2024-03-13T22:01:38.382Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "title": "Do I need to become a Genesis to access deals on Staria Network?",
+        "category": "Subscription Models",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "No, access to deals on Staria Network is not exclusive to Genesis members. Both free members and Genesis members can participate in investment opportunities. ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "However, to ensure a secure and compliant environment for all users, registration on the platform and completion of a valid KYC process are required before you can access any deals.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:06:33.133Z",
+        "updatedAt": "2024-03-13T22:01:59.539Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "title": "Can anyone refer other people on Staria Network?",
+        "category": "Referrals",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Only members with verified accounts are eligible to share their referral link and invite others to Staria Network. This requirement helps uphold the platform's reliability and credibility.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:10:29.033Z",
+        "updatedAt": "2024-03-13T22:07:56.917Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "title": "Are the Staria Network referral commissions lifetime?",
+        "category": "Referrals",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "First Level of Referral:",
+                "type": "text"
+              },
+              {
+                "text": " To earn commissions from your direct referrals (first level), it's essential that both you and your referees have completed the KYC process. Once this requirement is met, you're eligible to receive commissions for these referrals on a lifetime basis (as long as the KYC is valid), with no additional conditions.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Second and Third Levels of Referral:",
+                "type": "text"
+              },
+              {
+                "text": " For earning commissions from second and third-level referrals, you need to maintain your subscription status on the platform. Genesis and Genesis+ members automatically meet this requirement, ensuring their continued eligibility for referral rewards across all levels without further action.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:11:36.353Z",
+        "updatedAt": "2024-03-13T22:09:51.031Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "title": "Do I need to buy a token to participate on Staria Network?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "No, you do not need to buy a token to participate on Staria Network. Our aim is to make investing in crypto projects as easy and barrier-free as possible. We prioritize giving you the freedom to choose and invest in projects you like, without the need to purchase or lock any tokens to be eligible.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:12:05.761Z",
+        "updatedAt": "2024-03-13T22:10:45.216Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "title": "Are the deals proposed on Staria Network exclusive or publicly available elsewhere?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "At Staria Network, we don't tie projects down with exclusivity contracts, so they're free to appear on other platforms as well. But, don't worry, our dedication to bringing you top-notch investment opportunities hasn't changed a bit. We've got a solid network and some great industry connections, which means we're always finding unique investment options to share with you. Our main goal? To make sure you've got access to a wide range of valuable investments, no strings attached.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:12:40.511Z",
+        "updatedAt": "2024-03-13T22:11:05.836Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "title": "Can I invest in multiple private deals simultaneously on Staria Network?",
+        "category": "Investment",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Yes, you can invest in multiple private deals simultaneously on Staria Network. Whether the deals are proposed at the same time or at different intervals, you have the flexibility to participate in more than one investment opportunity as they become available.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:14:11.770Z",
+        "updatedAt": "2024-03-13T22:12:14.033Z",
+        "publishedAt": "2024-03-02T17:43:35.993Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "title": "How do I complete my KYC on Staria Network?",
+        "category": "Data Privacy",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Completing your KYC (Know Your Customer) process on Staria Network is easy and user-friendly. Here's how you can do it:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    1. ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Sign Up:",
+                "type": "text"
+              },
+              {
+                "text": " First, create an account on Staria Network. Once you're logged in, head over to the KYC section within your user dashboard.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    2. ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Submit Information:",
+                "type": "text"
+              },
+              {
+                "text": " You'll need to provide certain personal information and upload the required documents, such as a passport or ID card for identity verification, and Proof of Residency to confirm your fiscal residency.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    3. ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Verification:",
+                "type": "text"
+              },
+              {
+                "text": " After submitting your information and documents, they will be reviewed for verification. This process ensures that all information is accurate and compliant with Swiss law.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once your KYC has been verified, you'll gain full access to participate in investment deals on Staria Network.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:05:05.938Z",
+        "updatedAt": "2024-03-13T22:00:48.866Z",
+        "publishedAt": "2024-03-02T17:43:46.225Z",
+        "locale": "en",
+        "short_description": null
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "title": "What is the Genesis Offering on Staria Network?",
+        "category": "Subscription Models",
+        "text": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Genesis offering on Staria Network is a unique, lifetime paid subscription available for a limited time and to a limited number of early subscribers. It represents a commitment to our early adopters, providing them with exclusive benefits. Here's what you need to know about the Genesis offering:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - Lifetime Subscription: A one-time payment grants you lifetime access to the Genesis benefits, making it a valuable investment for those committed to long-term participation on the platform.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Exclusivity: ",
+                "type": "text"
+              },
+              {
+                "text": "The offering is limited both in time and in seats, designed specifically for early subscribers to reward them for their early support.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Advantages:",
+                "type": "text"
+              },
+              {
+                "text": " Subscribers to the Genesis plan gain access to special advantages over free membership, including but not limited to:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - Access to Over-The-Counter (OTC) deals as they become available",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - Opportunities for private deals eventually opening up",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "    - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Two Subscription Options:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis",
+                "type": "text"
+              },
+              {
+                "text": ": Includes a 15% fee on top of investments, lifetime validity, and access to two levels of referral bonuses.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "        - ",
+                "type": "text"
+              },
+              {
+                "bold": true,
+                "text": "Genesis+: ",
+                "type": "text"
+              },
+              {
+                "text": "Offers all the benefits of Genesis but with a lower 10% fee on top of investments, lifetime validity, access to three levels of referral bonuses, and exclusive VIP deals.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This structure provides flexibility and choice to our users, allowing them to select the level of investment and the range of benefits that best suit their needs.",
+                "type": "text"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2024-02-27T13:07:07.779Z",
+        "updatedAt": "2024-03-13T22:03:08.301Z",
+        "publishedAt": "2024-03-02T17:43:54.212Z",
+        "locale": "en",
+        "short_description": null
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 2,
+      "total": 29
+    }
+  }
+}

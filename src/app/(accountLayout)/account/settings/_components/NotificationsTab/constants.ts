@@ -1,0 +1,40 @@
+import type { NotificationMessageCode } from '@/api/types';
+
+export const notificationsData = {
+  title: 'Notifications',
+  description: 'Find all the important notifications from Staria Team',
+};
+
+export const notificationsCodes: Record<NotificationMessageCode, string> = {
+  EMAIL_SEND: 'A system email has been successfully delivered.',
+  AUTH_REGISTER: 'You have successfully registered your account.',
+  AUTH_VERIFY: 'You have successfully verified your account.',
+  AUTH_RESET_PASSWORD: 'You have requested to change your password.',
+  AUTH_CHANGE_PASSWORD: 'You have successfully changed your password.',
+  AUTH_INCORRECT: 'Incomplete authentication.',
+  AUTH_DUPLICATE: 'The email address used already exists.',
+  AUTH_SUCCESS: 'You have successfully authenticated.',
+  AFFILIATE_SUCCESS: 'You have onboarded a new friend to the platform.',
+  CHECKOUT_CREATED: 'A checkout session has been created.',
+  CHECKOUT_INCOMPLETE: 'A checkout session is incomplete.',
+  CHECKOUT_COMPLETED: 'A checkout session has been completed.',
+  CHECKOUT_CANCELLED: 'A checkout session has been cancelled.',
+  SUBSCRIPTION_ACTIVATED: 'Your subscription has been successfully activated.',
+  SUBSCRIPTION_DEACTIVATED: 'Your subscription has been terminated.',
+  VERIFY_CREATED: 'KYC process has been intitiated.',
+  VERIFY_LIVENESS_APPROVED: 'Facial verification has been approved.',
+  VERIFY_DOCUMENT_APPROVED: 'Document verfication has been approved.',
+  VERIFY_ADDRESS_APPROVED: 'Document verfication has been approved.',
+  VERIFY_LIVENESS_REJECTED: 'Facial verification has been rejected.',
+  VERIFY_DOCUMENT_REJECTED: 'Document verfication has been rejected.',
+  VERIFY_ADDRESS_REJECTED: 'Address verfication has been rejected.',
+  VERIFY_LIVENESS_RESUBMISSION: 'Facial verification requires resubmission.',
+  VERIFY_DOCUMENT_RESUBMISSION: 'Document verfication requires resubmission.',
+  VERIFY_ADDRESS_RESUBMISSION: 'Document verfication requires resubmission.',
+  VERIFY_LIVENESS_PENDING: 'Facial verification submission is pending.',
+  VERIFY_DOCUMENT_PENDING: 'Document verfication submission is pending.',
+  VERIFY_ADDRESS_PENDING: 'Address verfication submission is pending.',
+  VERIFY_LIVENESS_SUBMISSION: 'Facial verification requires submission.',
+  VERIFY_DOCUMENT_SUBMISSION: 'Document verfication requires submission.',
+  VERIFY_ADDRESS_SUBMISSION: 'Address verfication requires submission.',
+};

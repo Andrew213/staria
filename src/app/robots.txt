@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /kol.staria.network/
+Disallow: /apply.staria.network/
+Disallow: /cms.staria.network/
+Disallow: /account
+Disallow: /manager
+Disallow: /community
+
+Sitemap: https://staria.network/sitemap_index.xml

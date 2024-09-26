@@ -1,0 +1,16 @@
+{
+  "name": "Staria: The Web3 Swisspad for Compliant Token Sales",
+  "short_name": "Staria",
+  "description": "Discover our token-free, fair access Swisspad › Participate in exclusive offerings in crypto ✓ IDOs ✓ private & public rounds ✓ Swiss AML compliant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "72x72 96x96 128x128 256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}
