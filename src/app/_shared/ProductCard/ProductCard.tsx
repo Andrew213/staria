@@ -8,10 +8,13 @@ import communityApi from '@/api/CommunityApi';
 import { BackedBadge, MetricBadge, SaleType } from '@/app/(mainLayout)/invest/_components';
 import { Badge, Button } from '@/lib/components';
 import { routes } from '@/routes';
+import { isNumber } from '@/types/common';
+import { calculatePercentageOneNumberIsOfAnother } from '@/utils';
+import { capitalizeFirstLetter } from '@/utils/string';
 
 import { data } from './constants';
 import type { DealShortInfo } from '../types';
-import {} from '../utils';
+import { getDealCurrentPhaseData } from '../utils';
 
 dayjs.extend(duration);
 
@@ -25,6 +28,11 @@ interface Props {
 export async function ProductCard({ project, communityName, variant = 'horizontal', badge }: Props) {
   const community = communityName ? await communityApi.fetchCommunity(communityName) : undefined;
   const { slug, logoUrl, name, excerpt, type, totalAllocation, currentPhase, bannerUrl, badges } = project;
+  const currentPhaseData = getDealCurrentPhaseData(project);
+  const endDate = currentPhaseData?.endDate;
+  const startDate = currentPhaseData?.startDate;
+  const isActive = currentPhaseData?.isActive;
+  const isUpcoming = startDate && Date.now() < new Date(startDate).getTime();
 
   return (
     <Link
@@ -101,7 +109,65 @@ export async function ProductCard({ project, communityName, variant = 'horizonta
                     })
               }
             />
+            {isActive ? (
+              <>
+                {!startDate && !endDate && <MetricBadge title={data.startsIn} content={data.startsInText} />}
+                {isUpcoming && <MetricBadge title={data.startsIn} content={<Timer date={startDate} />} />}
+                {!isUpcoming && endDate && <MetricBadge title={data.endsIn} content={<Timer date={endDate} />} />}
+              </>
+            ) : (
+              <MetricBadge title={data.startsIn} content={data.startsInText} />
+            )}
+            {isActive && (
+              <div className="w-full">
+                <MetricBadge
+                  title={data.openNow}
+                  content={`${capitalizeFirstLetter(currentPhase)} Allocation`}
+                  bottomContent={
+                    <div className="mt-2 flex flex-col gap-1 font-rubik text-sm text-white">
+                      <ul className="space-y-1">
+                        <li>Max. Ticket size: ${currentPhaseData?.maxAmount}</li>
+                        <li>Allocation Available: ${currentPhaseData?.availableAmount}</li>
+                        {endDate && (
+                          <li>
+                            Pool ends in: <Timer date={endDate} />
+                          </li>
+                        )}
+                      </ul>
+                      {isNumber(currentPhaseData?.maxAmount) && (
+                        <div className="grid grid-cols-[74.6861%_1fr] items-center justify-between gap-x-1">
+                          <div className="relative h-2 rounded bg-gray-blue-200">
+                            <div
+                              className={cn(
+                                'h-2 max-w-full rounded',
+                                currentPhaseData.availableAmount < currentPhaseData.maxAmount / 2
+                                  ? 'bg-success-500'
+                                  : currentPhaseData.availableAmount >= currentPhaseData.maxAmount
+                                    ? 'bg-error-500'
+                                    : 'bg-warning-500',
+                              )}
+                              style={{
+                                width: `${calculatePercentageOneNumberIsOfAnother(
+                                  currentPhaseData.availableAmount,
+                                  currentPhaseData.maxAmount,
+                                )}%`,
+                              }}
+                            />
+                          </div>
+                          <p>Raised: ${currentPhaseData.availableAmount}</p>
+                        </div>
+                      )}
+                    </div>
+                  }
+                />
+              </div>
+            )}
           </div>
+          {isActive ? (
+            <Button size="xl" color="secondary" content={data.buttonText} />
+          ) : (
+            <Button size="xl" color="secondary" content={'Coming Soon'} />
+          )}
         </div>
         <div
           className={cn(

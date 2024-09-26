@@ -17,6 +17,7 @@ import { UpgradePlanModal } from './components';
 import { data, comingSoonData } from './constants';
 import { useMode } from '../hooks';
 import type { Deal, DealInvestmentPhase } from '../types';
+import { getDealCurrentPhaseData } from '../utils';
 
 extend(duration);
 
@@ -32,7 +33,7 @@ export function SaleDetailsCard({ project }: Props) {
   const userActivePlan = useAppSelector(selectActiveSubscription);
   const { currentPhase, type, phases, totalAllocation } = project;
   const active = !!currentPhase;
-  const currentPhaseData = undefined;
+  const currentPhaseData = getDealCurrentPhaseData(project);
   const endDate = currentPhaseData?.endDate;
   const startDate = phases.length && phases[0].startDate;
   const isActive = currentPhaseData?.isActive;

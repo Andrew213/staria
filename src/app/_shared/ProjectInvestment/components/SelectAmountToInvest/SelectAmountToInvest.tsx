@@ -8,6 +8,7 @@ import { formatEther } from 'viem';
 import { usNumberDefaultFormat } from '@/app/_shared/constants';
 import { useUsdcBalanceOfQuery, useCountdown } from '@/app/_shared/hooks';
 import type { Deal } from '@/app/_shared/types';
+import { getDealCurrentPhaseData } from '@/app/_shared/utils';
 import { LinkExternal02, LoadingCircle02 } from '@/assets/icons';
 import { Button, FieldError, Link } from '@/lib/components';
 import type { FieldNames } from '@/types/common';
@@ -55,7 +56,8 @@ export function SelectAmountToInvest({
     data: usdcBalance,
     error: usdcBalanceFetchError,
   } = useUsdcBalanceOfQuery();
-  const millisecondsNumberLeftTillClosed = useCountdown(new Date(currentPhaseData!.endDate).getTime());
+  const currentPhaseData = getDealCurrentPhaseData(project);
+  const millisecondsNumberLeftTillClosed = useCountdown(new Date(currentPhaseData!.endDate!).getTime());
 
   const handleSubmit = (values: FormData) => {
     if (mode === 'input') {
@@ -149,21 +151,25 @@ export function SelectAmountToInvest({
                     {mode === 'input' && (
                       <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2 rounded-3 border border-gray-200 p-4 text-xs font-medium text-gray-600 light:bg-gray-50 lg:text-sm dark:border-gray-blue-300 dark:text-gray-blue-100">
-                          <div className="flex justify-between">
-                            <p>{data.minimumAllocations}</p>
-                            <p>{toAmountInTokens(5000, 'USDC')}</p>
-                          </div>
-                          <div className="flex justify-between">
-                            <p>{data.maximumAllocations}</p>
-                            <p>{toAmountInTokens(5000, 'USDC')}</p>
-                          </div>
+                          {currentPhaseData && (
+                            <div className="flex justify-between">
+                              <p>{data.minimumAllocations}</p>
+                              <p>{toAmountInTokens(currentPhaseData.minAmount, 'USDC')}</p>
+                            </div>
+                          )}
+                          {currentPhaseData?.maxAmount && (
+                            <div className="flex justify-between">
+                              <p>{data.maximumAllocations}</p>
+                              <p>{toAmountInTokens(currentPhaseData.maxAmount, 'USDC')}</p>
+                            </div>
+                          )}
                           <div className="flex justify-between">
                             <p>{data.platformFee}</p>
                             <p>{mockedPlatformFee} %</p>
                           </div>
                           <div className="flex justify-between">
                             <p>{data.closedIn}</p>
-                            {5000 && (
+                            {currentPhaseData?.endDate && (
                               <p>
                                 {dayjs.duration(millisecondsNumberLeftTillClosed).format('DD[d] HH[h] mm[m] ss[s]')}
                               </p>

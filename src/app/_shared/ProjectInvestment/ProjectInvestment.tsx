@@ -14,6 +14,7 @@ import { TEXTS, DEAL_INVESTMENT_PHASE_NAME_TO_PHASE_LONG_NAME, PROJECT_INVESTMEN
 import type { ActiveStepIndex, LotteryOutcome } from './types';
 import { useCountdown } from '../hooks';
 import type { Deal } from '../types';
+import { getDealCurrentPhaseData } from '../utils';
 
 interface Props {
   project: Deal;
@@ -23,7 +24,8 @@ export default function ProjectInvestment({ project }: Props) {
   const [activeStepIndex, setActiveStepIndex] = useState<ActiveStepIndex>();
   const [investmentIsSuccessful] = useState<boolean>();
   const [lotteryOutcome] = useState<LotteryOutcome>();
-  const millisecondsNumberLeftTillClosed = useCountdown(new Date(currentPhase!.endDate).getTime());
+  const currentPhase = getDealCurrentPhaseData(project);
+  const millisecondsNumberLeftTillClosed = useCountdown(new Date(currentPhase!.endDate!).getTime());
   const [amountToInvest, setAmountToInvest] = useState<bigint>();
 
   return (
@@ -60,7 +62,10 @@ export default function ProjectInvestment({ project }: Props) {
 
             {((project.currentPhase === 'lottery' && activeStepIndex === 3) ||
               (project.currentPhase !== 'lottery' && activeStepIndex === 2)) && (
-              <KycCheck setInvestmentActiveStepIndex={setActiveStepIndex} total={10000} />
+              <KycCheck
+                setInvestmentActiveStepIndex={setActiveStepIndex}
+                total={currentPhase?.maxAmount ?? undefined}
+              />
             )}
 
             {((project.currentPhase === 'lottery' && activeStepIndex === 4) ||

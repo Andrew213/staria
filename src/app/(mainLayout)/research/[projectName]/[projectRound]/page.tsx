@@ -92,6 +92,7 @@ export default async function Page({ params }: RouteParams) {
   const projectCategory = capitalizeFirstLetter(project.categories[0]);
   const seenOn = badges.filter((badge) => badge.type === 'seen');
   const backedBy = badges.filter((badge) => badge.type === 'backed');
+  const phaseData = phases.find((phase) => phase.type === currentPhase);
 
   return (
     <div className="flex flex-col items-center overflow-hidden lg:overflow-visible">
@@ -110,7 +111,11 @@ export default async function Page({ params }: RouteParams) {
               backedBy={backedBy}
             />
             <div className="lg:hidden">
-              <StickyFooter title={stepsNames[currentPhase]} content={<SaleDetailsCard project={project} />} />
+              <StickyFooter
+                active={phaseData?.isActive ? stepsIndexes[currentPhase] : false}
+                title={stepsNames[currentPhase]}
+                content={<SaleDetailsCard project={project} />}
+              />
             </div>
             <InfoSection project={project} />
             <AboutSliderWrapper
